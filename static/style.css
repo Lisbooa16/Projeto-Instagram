@@ -28,9 +28,15 @@ a {
     height: 618px;
     background: url('./img/pitch.png') no-repeat center;
     background-position: -46px 0;
+    position: relative;
 
 }
 
+.pitch img {
+    position: absolute;
+    top: 28px;
+    left: 110px
+}
 
 
 .form {
